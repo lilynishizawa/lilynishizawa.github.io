@@ -68,9 +68,9 @@ export const siteConfig = {
   ],
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      school: "University of California, Santa Barbara",
+      degree: "Bachelor of Science in Statistics & Data Science; Bachelor of Science in Psychological and Brain Sciences",
+      dateRange: "2023 - 2027",
       achievements: [
         "Graduated Magna Cum Laude with 3.8 GPA",
         "Dean's List all semesters",
