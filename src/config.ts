@@ -13,10 +13,10 @@ export const siteConfig = {
   skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "LALALA",
       description:
         "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
+      link: "https://github.com/lilynishizawa/lilynishizawa.github.io/blob/master/projects/LAB-1-W.pdf",
       skills: ["React", "Node.js", "AWS"],
     },
     {
