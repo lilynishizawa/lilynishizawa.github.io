@@ -2,7 +2,7 @@ export const siteConfig = {
   name: "Lily Nishizawa",
   title: "Undergraduate Statistics & Data Science and Psychological and Brain Sciences Student at UCSB",
   description: "Portfolio website of Lily Nishizawa",
-  accentColor: "#1d4ed8",
+  accentColor: "#FF4B33",
   social: {
     email: "lilynishizawa@gmail.com",
     linkedin: "https://www.linkedin.com/in/lilynishizawa/",
