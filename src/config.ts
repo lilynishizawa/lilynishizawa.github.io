@@ -90,7 +90,7 @@ export const siteConfig = {
         "Highschool Diploma",
         "International Baccalaureate Diploma",
       ],
-      dateRange: "Sep 2019 - Jun 2023",
+      dateRange: ["Sep 2019 - Jun 2023",],
       achievements: [
         "Advanced Learning Program",
         "Excellence in Spanish Award Recipient",
