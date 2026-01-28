@@ -41,13 +41,7 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
                     <span class="text-xs sm:text-sm text-gray-500 mt-2 sm:mt-0">
                       {edu.dateRange}
                     </span>
-                      {edu.expectedGraduation && (
-                        <span class="text-xs sm:text-sm font-medium text-gray-700 block mt-1">
-                          {edu.expectedGraduation}
-                        </span>
-                      )}
-                    </div>
-                  
+                  </div>
 
                   <ul class="space-y-2">
                     {edu.achievements.map((achievement) => (
