@@ -10,7 +10,7 @@ export const siteConfig = {
     instagram: "https://www.instagram.com/lilysfilmie/"
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
+    "I am a current third-year student at UCSB pursuing a B.S. in statistics and data science as well as psychological and brain sciences. I love to go climbing, hiking, and spend time outside! I am also an amateur photographer, and I like to shoot nature on film. I can play piano, and I'm currently trying to teach myself to play the bass guitar!",
   skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
   projects: [
     {
@@ -79,9 +79,7 @@ export const siteConfig = {
         "Expected graduation: Jun 2027",
       ],
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
+        "Head of Marketing of Japanese Student Association",
       ],
     },
     {
