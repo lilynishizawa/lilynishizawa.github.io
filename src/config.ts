@@ -10,7 +10,7 @@ export const siteConfig = {
     instagram: "https://www.instagram.com/lilysfilmie/"
   },
   aboutMe:
-    "I am a current third-year student at UCSB pursuing a B.S. in statistics and data science as well as psychological and brain sciences. I love to go climbing, hiking, and spend time outside! I am also an amateur photographer, and I like to shoot nature on film. I can play piano, and I'm currently trying to teach myself to play the bass guitar!",
+    "I am a current third-year student at UCSB pursuing a B.S. in statistics and data science as well as psychological and brain sciences. I love to go climbing, hiking, and spend time outside! I am also an amateur photographer, and I like to shoot the nature I see on film. I can play piano, and I'm currently trying to teach myself to play the bass guitar!",
   skills: ["Microsoft, Google Suite", "R", "English", "Japanese (Intermediate)", "Spanish (Intermediate)"],
   projects: [
     {
@@ -47,13 +47,23 @@ export const siteConfig = {
       ],
     },
     {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
+      company: "Harborview Medical Center | Adult Medicine Clinic",
+      title: "Clinic Intern",
+      dateRange: "Oct 2022 - Jun 2023",
       bullets: [
         "Built and launched MVP product from scratch using React and Node.js",
         "Implemented CI/CD pipeline reducing deployment time by 60%",
         "Collaborated with product team to define technical requirements",
+      ],
+    },
+    {
+      company: "Digital Agency",
+      title: "Frontend Developer",
+      dateRange: "Aug 2018 - May 2020",
+      bullets: [
+        "Developed responsive web applications for 20+ clients",
+        "Improved site performance scores by 35% on average",
+        "Introduced modern JavaScript frameworks to legacy codebases",
       ],
     },
     {
