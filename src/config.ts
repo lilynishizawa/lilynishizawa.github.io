@@ -11,7 +11,7 @@ export const siteConfig = {
   },
   aboutMe:
     "I am a current third-year student at UCSB pursuing a B.S. in statistics and data science as well as psychological and brain sciences. I love to go climbing, hiking, and spend time outside! I am also an amateur photographer, and I like to shoot nature on film. I can play piano, and I'm currently trying to teach myself to play the bass guitar!",
-  skills: ["Google Suite", "Microsoft Suite", "R", "English", "Japanese (Intermediate)", "Spanish (Intermediate)"],
+  skills: ["Microsoft, Google Suite", "R", "English", "Japanese (Intermediate)", "Spanish (Intermediate)"],
   projects: [
     {
       name: "LALALA",
