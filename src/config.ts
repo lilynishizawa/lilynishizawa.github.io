@@ -37,9 +37,9 @@ export const siteConfig = {
   ],
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
+      company: "Sam's To Go",
+      title: "Cashier/Crew Member",
+      dateRange: "Jun 2024 - Jun 2025",
       bullets: [
         "Led development of microservices architecture serving 1M+ users",
         "Reduced API response times by 40% through optimization",
