@@ -70,9 +70,10 @@ export const siteConfig = {
   education: [
     {
       school: "University of California, Santa Barbara",
-      degree: ["Bachelor of Science in Statistics & Data Science",
-              "Bachelor of Science in Psychological and Brain Sciences",
-               ],
+      degree: [
+        "Bachelor of Science in Statistics & Data Science",
+        "Bachelor of Science in Psychological and Brain Sciences",
+      ],
       dateRange: "Sep 2023 - Current",
       achievements: [
         "Graduated Magna Cum Laude with 3.8 GPA",
@@ -82,7 +83,10 @@ export const siteConfig = {
     },
     {
       school: "Interlake High School",
-      degree: "Highschool Diploma; International Baccalaureate Diploma",
+      degree: [
+        "Highschool Diploma",
+        "International Baccalaureate Diploma",
+      ],
       dateRange: "Sep 2019 - Jun 2023",
       achievements: [
         "Advanced Learning Program",
