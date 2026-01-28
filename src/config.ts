@@ -75,7 +75,7 @@ export const siteConfig = {
         "Bachelor of Science in Psychological and Brain Sciences",
       ],
       dateRange: [
-        "Sep 2023 - Current",
+        "Sep 2023 - Present",
         "Expected graduation: Jun 2027",
       ],
       achievements: [
