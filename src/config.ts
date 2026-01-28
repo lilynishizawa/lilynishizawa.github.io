@@ -70,7 +70,7 @@ export const siteConfig = {
   education: [
     {
       school: "University of California, Santa Barbara",
-      degree: "Bachelor of Science in Statistics & Data Science; Bachelor of Science in Psychological and Brain Sciences",
+      degree: "Bachelor of Science in Statistics & Data Science<br>Bachelor of Science in Psychological and Brain Sciences",
       dateRange: "Sep 2023 - Current",
       achievements: [
         "Graduated Magna Cum Laude with 3.8 GPA",
