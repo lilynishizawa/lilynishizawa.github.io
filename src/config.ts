@@ -74,8 +74,10 @@ export const siteConfig = {
         "Bachelor of Science in Statistics & Data Science",
         "Bachelor of Science in Psychological and Brain Sciences",
       ],
-      dateRange: "Sep 2023 - Current",
-      expectedGraduation: "Expected Graduation: Jun 2027",
+      dateRange: [
+        "Sep 2023 - Current",
+        "Expected graduation: Jun 2027",
+      ],
       achievements: [
         "Graduated Magna Cum Laude with 3.8 GPA",
         "Dean's List all semesters",
@@ -85,7 +87,7 @@ export const siteConfig = {
     {
       school: "Interlake High School",
       degree: [
-        "High School Diploma",
+        "Highschool Diploma",
         "International Baccalaureate Diploma",
       ],
       dateRange: "Sep 2019 - Jun 2023",
