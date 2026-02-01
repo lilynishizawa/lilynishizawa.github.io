@@ -102,7 +102,7 @@ export const siteConfig = {
       achievements: [
         "Advanced Learning Program",
         "Excellence in Spanish Award Recipient",
-        "Co-Founder and Co-President of Biotechnology Club",
+        "Co-Founder and Outreach Officer of Biotechnology Club",
         "AP Scholar with Distinction"
       ],
     },
