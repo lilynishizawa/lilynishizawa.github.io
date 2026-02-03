@@ -14,11 +14,10 @@ export const siteConfig = {
   skills: ["Microsoft, Google Suite", "R", "English", "Japanese (Intermediate)", "Spanish (Intermediate)"],
   projects: [
     {
-      name: "LALALA",
+      name: "Substack",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Here I upload all my writing (usually for fun, some from courses I've taken)!",
+      link: "https://lilynishizawa.substack.com/",
     },
     {
       name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
