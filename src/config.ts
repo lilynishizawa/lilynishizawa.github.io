@@ -90,7 +90,7 @@ export const siteConfig = {
     {
       school: "Interlake High School",
       degree: [
-        "Highschool Diploma",
+        "High School Diploma",
         "International Baccalaureate Diploma",
       ],
       dateRange: ["Sep 2019 - Jun 2023",],
