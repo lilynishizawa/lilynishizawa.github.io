@@ -1,5 +1,7 @@
 ---
+import { useState } from "react";
 import { siteConfig } from "../config";
+const [activePdf, setActivePdf] = useState<string | null>(null);
 const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
 ---
 
@@ -21,7 +23,8 @@ const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
           <div class="lg:col-span-8">
             <div class="space-y-8">
               {siteConfig.projects.map((project, index) => {
-                const Component = project.link ? "a" : "div";
+                const isLink = project.link && !project.pdf;
+                const Component = isLink ? "a" : "div";
                 const linkProps = project.link
                   ? {
                       href: project.link,
@@ -33,10 +36,19 @@ const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
                 return (
                   <div class="group relative">
                     <Component
-                      {...linkProps}
+                      {...(isLink
+                        ? {
+                            href: project.link,
+                            target: "_blank",
+                            rel: "noopener noreferrer",
+                          }
+                        : {})}
+                      onClick={() => {
+                        if (project.pdf) setActivePdf(project.pdf);
+                      }}
                       class={`block relative p-4 sm:p-6 md:p-8 bg-gray-50 rounded-xl sm:rounded-2xl border border-gray-200 transition-all duration-300 ${
-                        project.link
-                          ? "hover:bg-white hover:shadow-xl hover:border-gray-300 hover:-translate-y-1"
+                        project.link || project.pdf
+                          ? "hover:bg-white hover:shadow-xl hover:border-gray-300 hover:-translate-y-1 cursor-pointer"
                           : ""
                       }`}
                     >
@@ -101,4 +113,22 @@ const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
       </div>
     </section>
   )
+{activePdf && (
+  <div class="fixed inset-0 bg-black/70 flex items-center justify-center z-50">
+    <div class="w-[90%] h-[90%] bg-white rounded-2xl overflow-hidden relative shadow-2xl">
+      
+      <button
+        onClick={() => setActivePdf(null)}
+        class="absolute top-4 right-4 bg-gray-900 text-white px-4 py-2 rounded-lg z-10"
+      >
+        Close
+      </button>
+
+      <iframe
+        src={activePdf}
+        class="w-full h-full"
+      />
+    </div>
+  </div>
+)}
 }
