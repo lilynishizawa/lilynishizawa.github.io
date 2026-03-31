@@ -20,11 +20,11 @@ export const siteConfig = {
       link: "https://lilynishizawa.substack.com/",
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "PSTAT 122 Final Project",
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "lalalallaa",
+      pdf: "/PSTAT 122 Final Project.pdf",
+      skills: ["R"],
     },
     {
       name: "ExtensionKit",
